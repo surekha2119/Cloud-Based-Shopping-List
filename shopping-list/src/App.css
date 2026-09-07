@@ -1,0 +1,79 @@
+/* ---------- NAVBAR ---------- */
+.navbar {
+  background: linear-gradient(90deg, #4f8cff, #6a5cff);
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav-left h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.logout-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+}
+.logout-btn:hover {
+  background: #eee;
+}
+
+/* ---------- COMPLETED ITEM ---------- */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/* ---------- ITEM CARD ---------- */
+.list-item-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+  transition: 0.2s;
+}
+.list-item-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------- MODAL ---------- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-card {
+  width: 500px;
+  max-width: 95%;
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
+}
