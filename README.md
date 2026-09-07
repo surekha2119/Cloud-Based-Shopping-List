@@ -23,7 +23,7 @@ CSS
 Vercel
 Getting Started
 1. Clone the repository
-git clone https://github.com/TSRSriraga/Cloud-Based-Shopping-List.git
+git clone https://github.com/surekha2119/Cloud-Based-Shopping-List.git
 2. Open the project folder
 cd Cloud-Based-Shopping-List
 3. Install dependencies
