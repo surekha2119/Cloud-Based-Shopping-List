@@ -1,7 +1,6 @@
 Cloud-Based Shopping List
 A cloud-based shopping list web application that allows users to create, manage, and share shopping items in real time.
-
-Features
+1) Features
 User registration and login
 Add, edit, and delete shopping items
 Mark shopping items as completed
