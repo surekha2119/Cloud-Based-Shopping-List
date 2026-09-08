@@ -1,5 +1,7 @@
 Cloud-Based Shopping List
+
 A cloud-based shopping list web application that allows users to create, manage, and share shopping items in real time.
+
 Features
 User registration and login
 Add, edit, and delete shopping items
@@ -13,6 +15,7 @@ View items shared by other users
 Real-time data synchronization
 Upload item images
 Responsive interface for different devices
+
 Technologies Used
 React.js
 Firebase Authentication
@@ -21,17 +24,23 @@ Cloudinary
 CSS
 Vercel
 Getting Started
+
 1. Clone the repository
 git clone https://github.com/surekha2119/Cloud-Based-Shopping-List.git
-2. Open the project folder
+
+3. Open the project folder
 cd Cloud-Based-Shopping-List
-3. Install dependencies
+
+5. Install dependencies
 npm install
-4. Start the application
+
+7. Start the application
 npm start
+
 The application will run at:
 
 http://localhost:3000
+
 
 Project Structure
 shopping-list/
@@ -49,11 +58,12 @@ shopping-list/
 ├── package-lock.json
 ├── README.md
 └── vercel.json
+
 Deployment
 The application is deployed using Vercel.
 
 Project Purpose
 The Cloud-Based Shopping List provides a convenient way for users to manage shopping items from different devices while keeping the data synchronized through cloud services.
 
-Author
+Author :
 Surekha T S
